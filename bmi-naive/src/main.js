@@ -27,9 +27,10 @@ function main({DOM}) {
         ]),
         h('div', [
           'Height ' + height + 'cm',
-          h('input#height', {type: 'range', min: 140, max: 210, value: height})
+          h('input#height', {type: 'range', min: 140, max: 410, value: height})
         ]),
-        h('h2', 'BMI is ' + bmi)
+        h('h2', 'BMI is ' + bmi),
+        h('h1', 'You\'re doing great!')
       ])
     )
   };
